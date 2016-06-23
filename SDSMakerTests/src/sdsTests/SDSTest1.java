@@ -14,10 +14,7 @@ public class SDSTest1 extends SDSBaseTest {
     	gendata.PrintCurrentDateTime("dd/MM/yyyy HH:mm:ss");
     	System.out.println("SDS Maker - open SDS menus!");
     	System.out.println("--------------------------------------------");
-    	//Browser.initFF();
-    	
-    	Browser.initChrome();
-		//Browser.initIE();
+    	RunBrowser();
 	}
 	
     @AfterMethod

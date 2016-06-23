@@ -27,6 +27,10 @@ public class SDSBaseTest {
   		return new SDSList();
 	}
 		
-
+ public static void RunBrowser() {
+	 Browser.initChrome();
+	 //Browser.initFF();
+ 	 //Browser.initIE();
+ }
 	
 }
