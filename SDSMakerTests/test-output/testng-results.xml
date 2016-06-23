@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="42799" started-at="2016-06-20T10:55:32Z" finished-at="2016-06-20T10:56:15Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="42799" started-at="2016-06-20T10:55:32Z" finished-at="2016-06-20T10:56:15Z">
+      <class name="sdsTests.SDSTest1">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:sdsTests.SDSTest1@13b6d03]" name="setUp" is-config="true" duration-ms="3903" started-at="2016-06-20T13:55:32Z" finished-at="2016-06-20T13:55:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="SDSTESTManufacturerMenus(java.lang.String, java.lang.String)[pri:0, instance:sdsTests.SDSTest1@13b6d03]" name="SDSTESTManufacturerMenus" duration-ms="37794" started-at="2016-06-20T13:55:36Z" data-provider="SDSManufacturer" finished-at="2016-06-20T13:56:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bay91126]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[uzxgU3LR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SDSTESTManufacturerMenus -->
+        <test-method status="PASS" signature="ShutDown()[pri:0, instance:sdsTests.SDSTest1@13b6d03]" name="ShutDown" is-config="true" duration-ms="1078" started-at="2016-06-20T13:56:14Z" finished-at="2016-06-20T13:56:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShutDown -->
+      </class> <!-- sdsTests.SDSTest1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
